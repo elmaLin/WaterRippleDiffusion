@@ -1,0 +1,6 @@
+framework module WaterRippleDiffusion {
+  umbrella header "WaterRippleDiffusion.h"
+
+  export *
+  module * { export * }
+}
