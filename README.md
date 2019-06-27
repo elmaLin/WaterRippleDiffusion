@@ -5,11 +5,11 @@
 ![image](https://github.com/elmaLin/WaterRippleDiffusion/blob/master/demogif.gif ) 
 
 用法：
-```
-#import <WaterRippleDiffusion/WaterRippleDiffusion.h>//c
-@property (strong, nonatomic)WaterRippleDiffusion *manager;//c
+```objc
+#import <WaterRippleDiffusion/WaterRippleDiffusion.h>
+@property (strong, nonatomic)WaterRippleDiffusion *manager;
 
-self.manager =  [[WaterRippleDiffusion alloc]init];//c
+self.manager =  [[WaterRippleDiffusion alloc]init];
 ```
 /*
  *withhDuration:一次扩散动画的执行时间
