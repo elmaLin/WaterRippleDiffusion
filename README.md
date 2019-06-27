@@ -15,5 +15,6 @@ self.manager =  [[WaterRippleDiffusion alloc]init];//c
  *withhDuration:一次扩散动画的执行时间
  *withLoopTime:每次扩散动画展示的间隔时间
  */
-    [self.manager creatOneWithObj:self.fatherView wihtPropotion1:1.2 wihtPropotion2:1.5 withColor:[UIColor redColor] withRadius:self.fatherView.frame.size.width withhDuration:1.5 withLoopTime:0.75];
+ 
+    [self.manager creatOneWithObj:self.fatherView wihtPropotion1:1.2 wihtPropotion2:1.5 withColor:[UIColor redColor] withRadius:self.fatherView.frame.size.width withhDuration:1.5 withLoopTime:0.75];//c
     
