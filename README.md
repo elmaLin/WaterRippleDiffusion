@@ -5,7 +5,7 @@
 ![image](https://github.com/elmaLin/WaterRippleDiffusion/blob/master/demogif.gif ) 
 
 用法：
-#import <WaterRippleDiffusion/WaterRippleDiffusion.h>
+#import <WaterRippleDiffusion/WaterRippleDiffusion.h>//c
 @property (strong, nonatomic)WaterRippleDiffusion *manager;
 
 self.manager =  [[WaterRippleDiffusion alloc]init];
